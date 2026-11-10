@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Casos reportados de COVID-19 — BOYACA</title>
+<style>
+body{font-family:system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.55;color:#20303a;background:#f4f7f8;margin:0}
+main{max-width:1080px;margin:2rem auto;padding:0 1rem} header,.card{background:white;border-radius:14px;padding:1.4rem 1.6rem;margin:1rem 0;box-shadow:0 2px 12px #18313b12}
+h1,h2{color:#124e66} .metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem} .metric strong{display:block;font-size:1.8rem;color:#176b87}
+figure{background:white;border-radius:14px;padding:1rem;margin:1rem 0} img{display:block;width:100%;height:auto} .muted{color:#5a6970} li{margin:.45rem 0}
+</style></head><body><main>
+<header><h1>Evolución de casos reportados de COVID-19</h1><p><strong>Departamento:</strong> BOYACA &nbsp;·&nbsp; <strong>Periodo:</strong> 2020-01-05 — 2024-10-01</p>
+<p>La serie agrupa por mes la fecha de reporte web y cuenta identificadores únicos de caso.</p></header>
+<section class="metrics"><article class="card metric"><span>Casos (ID únicos)</span><strong>131,133</strong><span class="muted">en el filtro seleccionado</span></article>
+<article class="card metric"><span>Promedio mensual</span><strong>2,571.2</strong><span class="muted">casos por mes calendario con datos</span></article></section>
+<section class="card"><h2>Hallazgo</h2><p>Entre January 2020 (831) y October 2024 (25), el conteo cambió -97.0% entre el primer y el último mes con datos. Este resumen se calcula automáticamente a partir de la serie mensual; no implica causalidad.</p></section>
+<figure><h2>Casos reportados por mes</h2><img src="graficos/casos-mensuales.png" alt="Gráfico de línea de casos mensuales"></figure>
+<figure><h2>Distribución por municipio</h2><img src="graficos/casos-por-municipio.png" alt="Gráfico de barras con los 15 municipios con más casos"></figure>
+<section class="card"><h2>Limitaciones</h2><ul><li>El conteo usa IDs de caso únicos; interpreta cada ID como un caso reportado según el campo disponible, no como medida de infección real o incidencia poblacional.</li><li>La fecha usada es «fecha reporte web» (publicación), no necesariamente fecha de diagnóstico, inicio de síntomas o contagio.</li><li>El archivo es una extracción local: puede no coincidir con revisiones posteriores de la fuente. La ficha menciona actualizaciones y fe de erratas.</li><li>Se excluyeron 0 filas con fecha inválida o ID vacío; se detectaron 0 filas duplicadas exactas en el origen.</li><li>Los municipios con valor faltante no aparecen en el gráfico municipal. Los gráficos describen conteos, no tasas ajustadas por población.</li></ul>
+<p>Fuente: <a href="https://www.datos.gov.co/Salud-y-Protecci-n-Social/Casos-positivos-de-COVID-19-en-Colombia-/gt2j-8ykr/about_data" target="_blank" rel="noopener noreferrer">Casos positivos de COVID-19 en Colombia — Datos Abiertos</a> (Instituto Nacional de Salud).</p>
+<p class="muted">CSV analizado: Casos_positivos_de_COVID-19_en_Colombia._20261109.csv. No se publican registros individuales.</p></section>
+</main></body></html>
